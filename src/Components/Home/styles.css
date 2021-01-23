@@ -1,0 +1,63 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #021628;
+}
+
+.main-container{
+    display: flex;
+    margin: 2% 6%;
+}
+
+.segmentContainer{
+    min-height: 300px;
+    width: 100%;
+    margin: 5px !important;
+    display: inline-block;
+    background-color: #0A0E14 !important;
+}
+
+.flex-props{
+    display: flex !important;
+    flex-wrap: wrap !important;
+    flex-direction: row !important;
+    justify-content: space-between !important;
+}
+
+.item{
+    margin: 10px;
+}
+
+.item button{
+    width:120px;
+}
+
+.header{
+    color: #71DFCB !important;
+}
+
+.graphContainer{
+    background-color: #F7F7F7 !important;
+    border-radius: 10px !important;
+    margin: 2% 6% !important;
+    padding: 10px !important;
+}
+
+.legends{
+    display: flex;
+}
+
+.legend{
+    border: 1px solid blue;
+    padding: 10px;
+    font-size: 1.2em;
+    margin: 5px;
+    border-radius: 5px;
+    color: white;
+    background-color: black;
+}
+
+.legend-color{
+    font-weight: 700;
+    font-size: 3em;
+}

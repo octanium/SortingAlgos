@@ -1,0 +1,47 @@
+{
+  "name": "sortingalgos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --mode development --open --hot",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/octanium/SortingAlgos.git"
+  },
+  "author": "octanium",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/octanium/SortingAlgos/issues"
+  },
+  "homepage": "https://github.com/octanium/SortingAlgos#readme",
+  "dependencies": {
+    "@data-ui/xy-chart": "0.0.84",
+    "random-array-generator": "^1.0.7",
+    "randomcolor": "^0.6.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-router-dom": "^5.2.0",
+    "react-toastify": "^6.0.8",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^1.2.1",
+    "statman-stopwatch": "^2.11.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.4",
+    "@babel/plugin-proposal-class-properties": "^7.10.4",
+    "@babel/preset-env": "^7.11.0",
+    "@babel/preset-react": "^7.10.4",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^4.2.2",
+    "file-loader": "^6.0.0",
+    "html-webpack-plugin": "^4.3.0",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
